@@ -1,6 +1,8 @@
 # Numpy
 Date: 07/01/19
+
 Name: Matthew Gleich
+
 ID Teach Camp - Introduction to Coding for Machine Learning
 
 ## What is Numpy?

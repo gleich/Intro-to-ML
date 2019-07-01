@@ -1,3 +1,9 @@
+# Macos Crap:
+.DS_Store
+
+# Gitpod stuff
+.theia
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -54,6 +54,7 @@ print(array2.shape) # prints(3,3) because there are three array values each with
 ```
 
 ### Array Arithmetic in Numpy
+
 Similar to the zip() function in general python, you can join two lists together doing the following operation:
 ```python
 num1 = [1 ,1 ,1 ,1 ,1]
@@ -62,9 +63,3 @@ num2 = [1 ,1 ,1 ,1 ,1]
 both_lists = num1 + num2  # Is [1 ,1 ,1 ,1 ,1, 1 ,1 ,1 ,1 ,1]
 ```
 
-### Arithmetic with NumPy Arrays
-Can can do arithmetic operations on arrays using Numpy by doing the following:
-
-```python
-
-```

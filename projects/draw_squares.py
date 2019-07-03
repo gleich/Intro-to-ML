@@ -27,7 +27,7 @@ while True:
     times += 1
     if times < 255:
         colors["red"] += 1
-    elif times >= 255 * 1 and times < 255 * 2:
+    elif times >= 255 * 1 and times < 255 * 2 - 1:
         colors["green"] += 1
     elif times >= 225 * 2 and times < 255 * 3 - 1:
         colors["red"] -= 1
@@ -40,7 +40,7 @@ while True:
     elif times > 255 * 5 and times < 255 * 6 - 1:
         colors["blue"] -= 1
     else:
-        times - 1525
+        times = 0
 
     sl += 0.5
     draw_square(sl, angle, [colors["red"], colors["green"], colors["blue"]])

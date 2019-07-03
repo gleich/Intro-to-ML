@@ -17,6 +17,7 @@ def draw_square(side_length, angle, color):
         turtle.forward(side_length)
         turtle.right(angle)
 
+
 turtle.hideturtle()
 turtle.bgcolor("black")
 sl = 0.5

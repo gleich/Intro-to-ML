@@ -11,19 +11,6 @@ def clear_output():
         print("\n")
 
 
-def display_end(win, play_time:
-    """
-    Display the end of the game screen
-    :param win: if the player won or not (bool)
-    :param play_time: total amount of the time it took to play the game
-    :return: none
-    """
-    if win:
-        clear_output()
-        print("Congradulations! You Won\n")
-        print("It took you " + play_time + " to play the game")
-
-
 def ask_question(question):
     """
     Ask the user a question
@@ -93,6 +80,29 @@ class Bot:
             return True
         else:
             return False
+
+     def display_end(self, other_bot, win, play_time):
+        """
+        Display the end of the game screen
+        :param other_bot: the other bot in the game
+        :param win: if the player won or not (bool)
+        :param play_time: total amount of the time it took to play the game
+        :return: plat_again (bool)
+        """
+        clear_output()
+        if win:
+            print("It took you " + play_time + " t play the game")
+        else:
+            print("Aww. Looks like you lost")
+        print("It took you " + play_time + " to play the game\n")
+        print("Your bot:")
+        print("Your bots health:", self.health)
+        print("Your bots Version:", self.bot_type)
+        print("")
+        print("Enemy bot:")
+        print("Enemy bot's health:", other_bot.health)
+        print("Enemy bot's version:", other_bot.bot_type)
+
 
 
 

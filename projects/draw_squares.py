@@ -17,7 +17,6 @@ def draw_square(side_length, angle, color):
         turtle.forward(side_length)
         turtle.right(angle)
 
-
 turtle.hideturtle()
 turtle.bgcolor("black")
 sl = 0.5
@@ -28,7 +27,7 @@ while True:
     times += 1
     if times < 255:
         colors["red"] += 1
-    elif times >= 255 * 1 and times < 255 * 2 - 1:
+    elif times >= 255 * 1 and times < 255 * 2:
         colors["green"] += 1
     elif times >= 225 * 2 and times < 255 * 3 - 1:
         colors["red"] -= 1
@@ -41,7 +40,7 @@ while True:
     elif times > 255 * 5 and times < 255 * 6 - 1:
         colors["blue"] -= 1
     else:
-        times = 0
+        times - 1525
 
     sl += 0.5
     draw_square(sl, angle, [colors["red"], colors["green"], colors["blue"]])

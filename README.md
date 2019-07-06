@@ -1,4 +1,4 @@
-#Into-to-ML
+# Into-to-ML
 Notes from the Introduction to coding for Machine Learning camp that I took at ID tech
 
 ## Camp Info:

@@ -10,4 +10,4 @@ Location: SNHU (Southern New Hampshire University)
 
 Instructor: Tyler Hanf (Dyno)
 
-Number of other campers: 4
+Number of other campers: 3

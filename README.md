@@ -11,3 +11,6 @@ Location: SNHU (Southern New Hampshire University)
 Instructor: Tyler Hanf (Dyno)
 
 Number of other campers: 3
+
+Other campers on Github:
+* [smol-bean](https://github.com/smol-bean)
